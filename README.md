@@ -95,8 +95,8 @@ Une fonction de collation personnalisée (`custom_embedding_collate_fn`) est uti
 Le modèle est entraîné en utilisant la fonction `train_epoch`, qui :
 
 - Boucle à travers le DataLoader d'entraînement.
-- Effectue une passe avant et calcule la perte.
-- Met à jour les paramètres du modèle en utilisant la rétropropagation.
+- Effectue une passe et calcule la loss.
+- Met à jour les paramètres du modèle en utilisant la backpropagation.
 
 #### Évaluation
 
