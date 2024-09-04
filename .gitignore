@@ -1,0 +1,8 @@
+**.ipynb_checkpoints
+data/csv
+data/json
+data/xlsx
+solution.py
+.python-version
+poetry.lock
+pyproject.toml
