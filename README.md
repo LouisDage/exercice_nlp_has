@@ -114,10 +114,18 @@ Après chaque époque, les performances du modèle sont imprimées, y compris la
 
 ### Comment exécuter le code
 
+0. **Création de l'environnement conda.**
+   ```bash
+   conda create --name mon_env python=3.9
+    ```
 1. Assurez-vous que toutes les dépendances sont installées.
-2. Chargez le jeu de données et prétraitez-le comme démontré dans le script.
+   ```bash
+   pip install -r requirements.txt
+    ```
 3. Entraînez le modèle en exécutant le script principal.
-4. Le modèle affichera les métriques de performance et une matrice de confusion après l'entraînement.
+   ```bash
+   python script_deep_learning.py
+    ```
 
 ### Conclusion
 
