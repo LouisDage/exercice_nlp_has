@@ -1,0 +1,8 @@
+torch==2.0.1
+transformers==4.30.2
+pandas==2.0.3
+scikit-learn==1.2.2
+matplotlib==3.7.1
+tqdm==4.65.0
+torcheval==0.1.1
+pycaret==3.0.0
